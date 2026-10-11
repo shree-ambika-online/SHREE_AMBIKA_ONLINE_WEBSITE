@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>SHREE AMBIKA ONLINE</title>
+    <link rel="icon" type="image/png" href="images/logo.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Noto+Sans+Gujarati:wght@400;600;700&family=Poppins:wght@400;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="wrap bar">
+            <a href="#home" class="brand"><span class="logo" id="logo">🖥️</span><span data-shop-name></span></a>
+            <button class="burger" id="burger" aria-label="Menu" aria-expanded="false">☰</button>
+            <nav id="nav" class="nav">
+                <a href="#home" data-i18n="nav_home"></a>
+                <a href="#online" data-i18n="nav_online"></a>
+                <a href="#shop" data-i18n="nav_shop"></a>
+                <a href="#about" data-i18n="nav_about"></a>
+                <a href="#contact" data-i18n="nav_contact"></a>
+                <div class="lang"><button data-lang="en" class="on">English</button><button
+                        data-lang="gu">ગુજરાતી</button></div>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero" id="home">
+        <div class="hero-inner wrap">
+            <h1 data-shop-name></h1>
+            <p data-i18n="tagline"></p>
+            <div class="actions">
+                <a href="#online" class="btn primary" data-i18n="view_services"></a>
+                <a href="#" class="btn light" data-wa data-i18n="whatsapp_us"></a>
+                <div class="lang"><button data-lang="en" class="on">English</button><button
+                        data-lang="gu">ગુજરાતી</button></div>
+            </div>
+        </div>
+    </section>
+
+    <main>
+        <section class="section" id="online">
+            <div class="wrap">
+                <h2 data-i18n="online_title"></h2>
+                <p class="sub" data-i18n="online_sub"></p>
+                <div class="grid" id="gov-grid"></div>
+            </div>
+        </section>
+
+        <section class="section alt" id="shop">
+            <div class="wrap">
+                <h2 data-i18n="shop_title"></h2>
+                <p class="sub" data-i18n="shop_sub"></p>
+                <h3 data-i18n="cat_print"></h3>
+                <div class="grid" id="print-grid"></div>
+                <h3 data-i18n="cat_card"></h3>
+                <div class="grid" id="card-grid"></div>
+            </div>
+        </section>
+
+        <section class="section" id="about">
+            <div class="wrap narrow">
+                <h2 data-i18n="about_title"></h2>
+                <p data-i18n="about_text"></p>
+            </div>
+        </section>
+
+        <section class="section alt" id="contact">
+            <div class="wrap">
+                <h2 data-i18n="contact_title"></h2>
+                <div class="contact">
+                    <ul id="contact-list"></ul>
+                    <div class="contact-btns">
+                        <a class="btn primary" id="call-btn" data-i18n="call"></a>
+                        <a class="btn wa" data-wa data-i18n="whatsapp_us"></a>
+                        <a class="btn insta" id="insta-btn" target="_blank" rel="noopener" data-i18n="instagram"></a>
+                        <a class="btn outline" id="map-btn" target="_blank" rel="noopener" data-i18n="map"></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="wrap">© <span id="year"></span> <span data-shop-name></span> TRUSTED & SECURE SINCE 2019</div>
+    </footer>
+
+    <a href="#" class="float-wa" data-wa aria-label="WhatsApp">💬</a>
+
+    <div class="overlay" id="overlay" hidden>
+        <div class="modal" role="dialog" aria-modal="true" aria-labelledby="m-title">
+            <button class="close" id="m-close" aria-label="Close">✕</button>
+            <div class="m-icon" id="m-icon"></div>
+            <h2 id="m-title"></h2>
+            <p class="m-gu" id="m-sub"></p>
+            <p id="m-desc"></p>
+            <div id="m-docs-wrap">
+                <h3 data-i18n="req_docs"></h3>
+                <ol id="m-docs"></ol>
+            </div>
+            <p class="m-meta" id="m-price"></p>
+            <p class="m-meta" id="m-proc"></p>
+            <div class="actions">
+                <a class="btn wa" id="m-wa" target="_blank" rel="noopener"></a>
+                <button class="btn outline" id="m-back" data-i18n="back"></button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
