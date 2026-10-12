@@ -257,9 +257,15 @@ function render() {
     // const rows = [["lbl_shop", CONFIG.shopName], ["lbl_phone", CONFIG.phone || "[PHONE NUMBER]"], ["lbl_wa", CONFIG.whatsapp || "[WHATSAPP NUMBER]"], ["lbl_addr", CONFIG.address], ["lbl_hours", CONFIG.hours]];//---
     const rows = [["lbl_shop", CONFIG.shopName], ["lbl_wa", CONFIG.whatsapp || "[WHATSAPP NUMBER]"], ["lbl_addr", CONFIG.address], ["lbl_hours", CONFIG.hours]];//---
     $("#contact-list").innerHTML = rows.map(([k, v]) => `<li><b>${t(k)}</b>${esc(v)}</li>`).join("");
-    $("#call-btn").href = CONFIG.phone ? `tel:${CONFIG.phone}` : "#contact";
-    $("#map-btn").href = CONFIG.mapsLink || "#contact";
-    $("#insta-btn").href = CONFIG.insta || "#contact";
+    // $("#call-btn").href = CONFIG.phone ? `tel:${CONFIG.phone}` : "#contact";
+    // $("#map-btn").href = CONFIG.mapsLink || "#contact";
+    // $("#insta-btn").href = CONFIG.insta || "#contact";
+
+    const setHref = (sel, url) => { const el = $(sel); if (el) el.href = url; };
+    setHref("#call-btn", CONFIG.phone ? `tel:${CONFIG.phone}` : "#contact");
+    setHref("#map-btn", CONFIG.mapsLink || "#contact");
+    setHref("#insta-btn", CONFIG.insta || "#contact");
+    
     if (CONFIG.logo) $("#logo").innerHTML = `<img src="${CONFIG.logo}" alt="">`;
     if (!$("#overlay").hidden) openModal(current);
 }
