@@ -193,11 +193,11 @@ const SERVICES = [
     { id: "colour", cat: "print", icon: "🎨", en: "Colour Printing", gu: "કલર પ્રિન્ટિંગ", descEn: "Clear colour prints, A4 and other sizes.", descGu: "સ્પષ્ટ કલર પ્રિન્ટ, A4 અને અન્ય સાઇઝ.", price: "" },
     { id: "bw", cat: "print", icon: "📃", en: "Black & White Printing", gu: "બ્લેક એન્ડ વ્હાઇટ પ્રિન્ટિંગ", descEn: "Fast and affordable black & white prints.", descGu: "ઝડપી અને પરવડે તેવી બ્લેક એન્ડ વ્હાઇટ પ્રિન્ટ.", price: "" },
     { id: "photocopy", cat: "print", icon: "📑", en: "Photocopy", gu: "ઝેરોક્ષ", descEn: "Photocopy of any document.", descGu: "કોઈપણ દસ્તાવેજની ઝેરોક્ષ.", price: "" },
-    { id: "passport", cat: "print", icon: "🧑", en: "Passport Size Photos", gu: "પાસપોર્ટ સાઇઝ ફોટા", descEn: "Passport size photos printed on the spot.", descGu: "પાસપોર્ટ સાઇઝ ફોટા તરત પ્રિન્ટ.", price: "" },
+    { id: "passport_photo", cat: "print", icon: "🧑", en: "Passport Size Photos", gu: "પાસપોર્ટ સાઇઝ ફોટા", descEn: "Passport size photos printed on the spot.", descGu: "પાસપોર્ટ સાઇઝ ફોટા તરત પ્રિન્ટ.", price: "" },
     { id: "othershop", cat: "print", icon: "✨", en: "Other Shop Services", gu: "અન્ય દુકાન સેવાઓ", descEn: "Ask us for any other printing or document need.", descGu: "અન્ય પ્રિન્ટિંગ કે ડોક્યુમેન્ટ કામ માટે પૂછો.", price: "" },
 
     // card services
-    { id: "smartpvc", cat: "card", icon: "🪪", en: "Smart PVC Card", gu: "સ્માર્ટ PVC કાર્ડ", descEn: "Durable PVC print of Aadhaar, Pan card and more.", descGu: "આધાર, પાન કાર્ડ વગેરેની ટકાઉ PVC પ્રિન્ટ.", price: "" },
+    { id: "smartpvc", cat: "card", icon: "💳", en: "Smart PVC Card", gu: "સ્માર્ટ PVC કાર્ડ", descEn: "Durable PVC print of Aadhaar, Pan card and more.", descGu: "આધાર, પાન કાર્ડ વગેરેની ટકાઉ PVC પ્રિન્ટ.", price: "" },
     { id: "pvcid", cat: "card", icon: "🏷️", en: "PVC ID Card", gu: "PVC આઈડી કાર્ડ", descEn: "Custom ID cards for schools, offices and businesses.", descGu: "શાળા, ઓફિસ અને વ્યવસાય માટે કસ્ટમ આઈડી કાર્ડ.", price: "" },
     { id: "doclam", cat: "card", icon: "🛡️", en: "Document Lamination", gu: "ડોક્યુમેન્ટ લેમિનેશન", descEn: "Protect important papers with lamination.", descGu: "લેમિનેશનથી મહત્વના કાગળો સુરક્ષિત કરો.", price: "" },
     { id: "cardlam", cat: "card", icon: "💠", en: "Card Lamination", gu: "કાર્ડ લેમિનેશન", descEn: "Lamination for ID and small cards.", descGu: "આઈડી અને નાના કાર્ડ માટે લેમિનેશન.", price: "" }
