@@ -188,6 +188,11 @@ const SERVICES = [
         "price": "", "processing": "", "docs": [["Aadhaar Card (Identity & Address Proof)", "આધારકાર્ડ (ઓળખ અને સરનામાનો પુરાવો)"], ["Recent Passport Size Photograph", "તાજેતરનો પાસપોર્ટ સાઇઝનો ફોટો"], ["Active Mobile Number", "મોબાઈલ નંબર"]]
     },
     {
+        "id": "gyan_sahayak_primary_recruitment_2026", "cat": "gov", "icon": "👨‍🏫", "en": "Gyan Sahayak (Primary) Recruitment 2026", "gu": "જ્ઞાન સહાયક (પ્રાથમિક) ભરતી ૨૦૨૬",
+        "descEn": "Recruitment process for Gyan Sahayak (Primary) on an 11-month contract basis by the Education Department, Government of Gujarat.", "descGu": "સમગ્ર શિક્ષા - શિક્ષણ વિભાગ (ગુજરાત સરકાર) દ્વારા ૧૧ માસના કરાર આધારિત જ્ઞાન સહાયક (પ્રાથમિક) ભરતી માટેની ઓનલાઇન અરજી પ્રક્રિયા.",
+        "price": "", "processing": "", "docs": [["TET-1 or TET-2 Pass Marksheet (TET-1 for Std. 1-5 / TET-2 for Std. 6-8)", "TET-૧ અથવા TET-૨ પાસ માર્કશીટ (ધો. ૧-૫ માટે TET-૧ / ધો. ૬-૮ માટે TET-૨)"], ["Educational Qualification Marksheet & Degree (Std. 12, Graduate, Post Graduate)", "શૈક્ષણિક લાયકાતની માર્કશીટ & ડિગ્રી (ધો. ૧૨, સ્નાતક, અનુસ્નાતક)"], ["Professional Qualification Certificate (D.El.Ed. / PTC / B.Ed. Marksheet)", "વ્યાવસાયિક લાયકાત પ્રમાણપત્ર (D.El.Ed. / PTC / B.Ed. માર્કશીટ)"], ["School Leaving Certificate (L.C.) / Proof of Date of Birth", "શાળા છોડ્યાનું પ્રમાણપત્ર (L.C.) / જન્મ તારીખનો પુરાવો"], ["Aadhaar Card (For Identity Proof)", "આધારકાર્ડ (ઓળખના પુરાવા માટે)"], ["Passport Size Photograph & Scanned Copy of Signature", "પાસપોર્ટ સાઇઝનો ફોટોગ્રાફ & સહીની સ્કેન કોપી"], ["Caste Certificate (SC / ST / SEBC / EWS) (if applicable)", "જાતિનો દાખલો (SC / ST / SEBC / EWS) (લાગુ પડતું હોય તો)"], ["Active Mobile Number & Email ID", "ચાલુ મોબાઇલ નંબર & ઈ-મેઈલ આઈ.ડી."]]
+    },
+    {
         id: "othergov", cat: "gov", icon: "🗂️", en: "Other Government Online Services", gu: "અન્ય સરકારી ઓનલાઈન સેવાઓ",
         descEn: "Ask us about any other government online work.", descGu: "અન્ય કોઈપણ સરકારી ઓનલાઈન કામ માટે અમને પૂછો.",
         price: "", processing: "", docs: [["Aadhaar Card", "આધાર કાર્ડ"], ["Passport Size Photo", "પાસપોર્ટ સાઇઝ ફોટો"], ["Mobile Number", "મોબાઇલ નંબર"], ["Other documents depend on the service", "અન્ય દસ્તાવેજો સેવા પ્રમાણે"]]
