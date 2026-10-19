@@ -193,6 +193,11 @@ const SERVICES = [
         "price": "", "processing": "", "docs": [["TET-1 or TET-2 Pass Marksheet (TET-1 for Std. 1-5 / TET-2 for Std. 6-8)", "TET-૧ અથવા TET-૨ પાસ માર્કશીટ (ધો. ૧-૫ માટે TET-૧ / ધો. ૬-૮ માટે TET-૨)"], ["Educational Qualification Marksheet & Degree (Std. 12, Graduate, Post Graduate)", "શૈક્ષણિક લાયકાતની માર્કશીટ & ડિગ્રી (ધો. ૧૨, સ્નાતક, અનુસ્નાતક)"], ["Professional Qualification Certificate (D.El.Ed. / PTC / B.Ed. Marksheet)", "વ્યાવસાયિક લાયકાત પ્રમાણપત્ર (D.El.Ed. / PTC / B.Ed. માર્કશીટ)"], ["School Leaving Certificate (L.C.) / Proof of Date of Birth", "શાળા છોડ્યાનું પ્રમાણપત્ર (L.C.) / જન્મ તારીખનો પુરાવો"], ["Aadhaar Card (For Identity Proof)", "આધારકાર્ડ (ઓળખના પુરાવા માટે)"], ["Passport Size Photograph & Scanned Copy of Signature", "પાસપોર્ટ સાઇઝનો ફોટોગ્રાફ & સહીની સ્કેન કોપી"], ["Caste Certificate (SC / ST / SEBC / EWS) (if applicable)", "જાતિનો દાખલો (SC / ST / SEBC / EWS) (લાગુ પડતું હોય તો)"], ["Active Mobile Number & Email ID", "ચાલુ મોબાઇલ નંબર & ઈ-મેઈલ આઈ.ડી."]]
     },
     {
+        "id": "vhali_dikri_yojana", "cat": "gov", "icon": "👧", "en": "Vhali Dikri Yojana", "gu": "વ્હાલી દીકરી યોજના",
+        "descEn": "A government scheme of Gujarat providing financial assistance for the education and wedding of daughters.", "descGu": "ગુજરાત સરકાર દ્વારા દીકરીઓના શિક્ષણ અને લગ્ન સહાય માટેની કલ્યાણકારી યોજના.",
+        "price": "", "processing": "", "docs": [["Birth Certificate of the daughter", "દીકરીનો જન્મ નો દાખલો."], ["Marriage Certificate of parents", "માતા - પિતા નું લગ્ન નોધણી પ્રમાણ પત્ર(Marriage certificate)."], ["Income Certificate", "આવક નો દાખલો."], ["Aadhaar Card of mother, father, and daughter", "માતા, પિતા અને દીકરી નું આધાર કાર્ડ."], ["Bank Passbook and Ration Card", "બેન્ક પાસબુક અને રેશનકાર્ડ"], ["Photograph of the applicant", "અરજદારનો ફોટો."]]
+    },
+    {
         id: "othergov", cat: "gov", icon: "🗂️", en: "Other Government Online Services", gu: "અન્ય સરકારી ઓનલાઈન સેવાઓ",
         descEn: "Ask us about any other government online work.", descGu: "અન્ય કોઈપણ સરકારી ઓનલાઈન કામ માટે અમને પૂછો.",
         price: "", processing: "", docs: [["Aadhaar Card", "આધાર કાર્ડ"], ["Passport Size Photo", "પાસપોર્ટ સાઇઝ ફોટો"], ["Mobile Number", "મોબાઇલ નંબર"], ["Other documents depend on the service", "અન્ય દસ્તાવેજો સેવા પ્રમાણે"]]
