@@ -198,6 +198,11 @@ const SERVICES = [
         "price": "", "processing": "", "docs": [["Birth Certificate of the daughter", "દીકરીનો જન્મ નો દાખલો."], ["Marriage Certificate of parents", "માતા - પિતા નું લગ્ન નોધણી પ્રમાણ પત્ર(Marriage certificate)."], ["Income Certificate", "આવક નો દાખલો."], ["Aadhaar Card of mother, father, and daughter", "માતા, પિતા અને દીકરી નું આધાર કાર્ડ."], ["Bank Passbook and Ration Card", "બેન્ક પાસબુક અને રેશનકાર્ડ"], ["Photograph of the applicant", "અરજદારનો ફોટો."]]
     },
     {
+        "id": "rrb_ntpc_graduate_recruitment_2026", "cat": "gov", "icon": "🚂", "en": "Railway NTPC Graduate Recruitment 2026", "gu": "રેલવે NTPC ગ્રેજ્યુએટ ભરતી ૨૦૨૬",
+        "descEn": "Railway Recruitment Board (RRB) vacancy for graduate posts including Traffic Assistant, Ticket Clerk, Accounts Clerk, and Junior Clerk. Eligibility: 18 to 33 years old.", "descGu": "રેલવે ભરતી બોર્ડ (RRB) દ્વારા ટ્રાફિક આસિસ્ટન્ટ, ટિકિટ ક્લાર્ક, એકાઉન્ટ ક્લાર્ક અને જુનિયર ક્લાર્ક સહિતની ગ્રેજ્યુએટ પોસ્ટ્સ માટેની ભરતી. પાત્રતા: ૧૮ થી ૩૩ વર્ષ.",
+        "price": "", "processing": "", "docs": [["Aadhaar Card", "આધારકાર્ડ"], ["College (Graduation) Final Marksheet / Degree", "કોલેજ (ગ્રેજ્યુએશન) છેલ્લી માર્કશીટ / ડિગ્રી"], ["Class-10 and Class-12 Marksheet", "ધોરણ-૧૦ અને ધોરણ-૧૨ ની માર્કશીટ"], ["Bank Account Passbook (For exam fee refund)", "બેંક ખાતાની પાસબુક (પરીક્ષા ફી રિફંડ મેળવવા માટે)"], ["Caste Certificate (SC/ST in English / OBC NCL / EWS)", "જાતિ પ્રમાણપત્ર (SC/ST અંગ્રેજીમાં / OBC NCL / EWS)"], ["Passport size Photograph & scanned copy of Signature", "પાસપોર્ટ સાઇઝનો ફોટોગ્રાફ & સહીની સ્કેન કોપી"], ["Active Mobile Number & Email ID", "ચાલુ મોબાઇલ નંબર & ઈ-મેઈલ આઈ.ડી."]]
+    },
+    {
         id: "othergov", cat: "gov", icon: "🗂️", en: "Other Government Online Services", gu: "અન્ય સરકારી ઓનલાઈન સેવાઓ",
         descEn: "Ask us about any other government online work.", descGu: "અન્ય કોઈપણ સરકારી ઓનલાઈન કામ માટે અમને પૂછો.",
         price: "", processing: "", docs: [["Aadhaar Card", "આધાર કાર્ડ"], ["Passport Size Photo", "પાસપોર્ટ સાઇઝ ફોટો"], ["Mobile Number", "મોબાઇલ નંબર"], ["Other documents depend on the service", "અન્ય દસ્તાવેજો સેવા પ્રમાણે"]]
