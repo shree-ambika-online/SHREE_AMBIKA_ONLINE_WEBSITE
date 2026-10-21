@@ -203,6 +203,11 @@ const SERVICES = [
         "price": "", "processing": "", "docs": [["Aadhaar Card", "આધારકાર્ડ"], ["College (Graduation) Final Marksheet / Degree", "કોલેજ (ગ્રેજ્યુએશન) છેલ્લી માર્કશીટ / ડિગ્રી"], ["Class-10 and Class-12 Marksheet", "ધોરણ-૧૦ અને ધોરણ-૧૨ ની માર્કશીટ"], ["Bank Account Passbook (For exam fee refund)", "બેંક ખાતાની પાસબુક (પરીક્ષા ફી રિફંડ મેળવવા માટે)"], ["Caste Certificate (SC/ST in English / OBC NCL / EWS)", "જાતિ પ્રમાણપત્ર (SC/ST અંગ્રેજીમાં / OBC NCL / EWS)"], ["Passport size Photograph & scanned copy of Signature", "પાસપોર્ટ સાઇઝનો ફોટોગ્રાફ & સહીની સ્કેન કોપી"], ["Active Mobile Number & Email ID", "ચાલુ મોબાઇલ નંબર & ઈ-મેઈલ આઈ.ડી."]]
     },
     {
+        "id": "online_police_report_application", "cat": "gov", "icon": "👮", "en": "Online Police Report Application", "gu": "ઓનલાઇન પોલીસ રીપોર્ટ ની અરજી",
+        "descEn": "Application service to file an official online police report or clearance request.", "descGu": "ઓનલાઇન પોલીસ રીપોર્ટ અથવા ક્લિયરન્સ મેળવવા માટેની ઓનલાઈન અરજી સેવા.",
+        "price": "", "processing": "", "docs": [["Passport size Photograph", "પાસપોર્ટ સાઇઝ ફોટો"], ["Aadhaar Card", "આધાર કાર્ડ"], ["Mobile Number", "મોબાઈલ નંબર"]]
+    },
+    {
         id: "othergov", cat: "gov", icon: "🗂️", en: "Other Government Online Services", gu: "અન્ય સરકારી ઓનલાઈન સેવાઓ",
         descEn: "Ask us about any other government online work.", descGu: "અન્ય કોઈપણ સરકારી ઓનલાઈન કામ માટે અમને પૂછો.",
         price: "", processing: "", docs: [["Aadhaar Card", "આધાર કાર્ડ"], ["Passport Size Photo", "પાસપોર્ટ સાઇઝ ફોટો"], ["Mobile Number", "મોબાઇલ નંબર"], ["Other documents depend on the service", "અન્ય દસ્તાવેજો સેવા પ્રમાણે"]]
