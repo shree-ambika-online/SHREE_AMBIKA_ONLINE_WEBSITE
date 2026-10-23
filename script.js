@@ -203,6 +203,11 @@ const SERVICES = [
         "price": "", "processing": "", "docs": [["Aadhaar Card", "આધારકાર્ડ"], ["College (Graduation) Final Marksheet / Degree", "કોલેજ (ગ્રેજ્યુએશન) છેલ્લી માર્કશીટ / ડિગ્રી"], ["Class-10 and Class-12 Marksheet", "ધોરણ-૧૦ અને ધોરણ-૧૨ ની માર્કશીટ"], ["Bank Account Passbook (For exam fee refund)", "બેંક ખાતાની પાસબુક (પરીક્ષા ફી રિફંડ મેળવવા માટે)"], ["Caste Certificate (SC/ST in English / OBC NCL / EWS)", "જાતિ પ્રમાણપત્ર (SC/ST અંગ્રેજીમાં / OBC NCL / EWS)"], ["Passport size Photograph & scanned copy of Signature", "પાસપોર્ટ સાઇઝનો ફોટોગ્રાફ & સહીની સ્કેન કોપી"], ["Active Mobile Number & Email ID", "ચાલુ મોબાઇલ નંબર & ઈ-મેઈલ આઈ.ડી."]]
     },
     {
+        "id": "rte_admission_gujarat", "cat": "gov", "icon": "🎒", "en": "RTE Class 1 Admission", "gu": "RTE ધોરણ ૧ પ્રવેશ",
+        "descEn": "Online application for free admission in Class 1 under the Right to Education (RTE) Act.", "descGu": "રાઈટ ટુ એજ્યુકેશન (RTE) હેઠળ ધોરણ ૧ માં મફત પ્રવેશ મેળવવા માટેનું ઓનલાઈન ફોર્મ.",
+        "price": "", "processing": "", "docs": [["Address Proof", "રહેઠાણ નો પુરાવો"], ["Caste Certificate (Parent)", "જાતી નો દાખલો (વાલી નો)"], ["Birth Certificate of Child", "બાળક નો જન્મ દાખલો"], ["Photograph", "ફોટોગ્રાફ"], ["Income Certificate of Parent", "વાલી ની આવક નો દાખલો"], ["Nomadic / De-notified Tribe Certificate (If Applicable)", "વિચરતી વિમુક્ત જાતી નો દાખલો (લાગુ પડે એમના માટે)"], ["Bank Passbook of Child or Parent", "બાળક કે વાલીની બેંક પાસબુક"], ["Aadhaar Card of Child and Parents", "બાળક અને માતા - પિતા નું આધાર કાર્ડ"], ["Single Girl Child Certificate from Competent Authority (If Applicable)", "સંતાન માં એક માત્ર દીકરી હોય તો સક્ષમ અધિકારી (સિંગલ ગર્લ ચાઇલ્ડ) દાખલો"], ["Self Declaration", "સેલ્ફ ડિકલેરેશન"]]
+    },
+    {
         id: "othergov", cat: "gov", icon: "🗂️", en: "Other Government Online Services", gu: "અન્ય સરકારી ઓનલાઈન સેવાઓ",
         descEn: "Ask us about any other government online work.", descGu: "અન્ય કોઈપણ સરકારી ઓનલાઈન કામ માટે અમને પૂછો.",
         price: "", processing: "", docs: [["Aadhaar Card", "આધાર કાર્ડ"], ["Passport Size Photo", "પાસપોર્ટ સાઇઝ ફોટો"], ["Mobile Number", "મોબાઇલ નંબર"], ["Other documents depend on the service", "અન્ય દસ્તાવેજો સેવા પ્રમાણે"]]
