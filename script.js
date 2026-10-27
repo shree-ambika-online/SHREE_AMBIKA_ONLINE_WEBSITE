@@ -208,6 +208,11 @@ const SERVICES = [
         "price": "", "processing": "", "docs": [["Address Proof", "રહેઠાણ નો પુરાવો"], ["Caste Certificate (Parent)", "જાતી નો દાખલો (વાલી નો)"], ["Birth Certificate of Child", "બાળક નો જન્મ દાખલો"], ["Photograph", "ફોટોગ્રાફ"], ["Income Certificate of Parent", "વાલી ની આવક નો દાખલો"], ["Nomadic / De-notified Tribe Certificate (If Applicable)", "વિચરતી વિમુક્ત જાતી નો દાખલો (લાગુ પડે એમના માટે)"], ["Bank Passbook of Child or Parent", "બાળક કે વાલીની બેંક પાસબુક"], ["Aadhaar Card of Child and Parents", "બાળક અને માતા - પિતા નું આધાર કાર્ડ"], ["Single Girl Child Certificate from Competent Authority (If Applicable)", "સંતાન માં એક માત્ર દીકરી હોય તો સક્ષમ અધિકારી (સિંગલ ગર્લ ચાઇલ્ડ) દાખલો"], ["Self Declaration", "સેલ્ફ ડિકલેરેશન"]]
     },
     {
+        "id": "pm_awas_yojana_urban_2_0", "cat": "gov", "icon": "🏠", "en": "Pradhan Mantri Awas Yojana Urban 2.0", "gu": "પ્રધાનમંત્રી આવાસ યોજના અર્બન ૨.૦",
+        "descEn": "Required document checklist for Pradhan Mantri Awas Yojana (PMAY) Urban 2.0 application. All original documents must be brought along.", "descGu": "પ્રધાનમંત્રી આવાસ યોજના (PMAY) અર્બન ૨.૦ ના ફોર્મ ભરવા માટે જરૂરી દસ્તાવેજોની ચેકલિસ્ટ. બધા જ ઓરીજનલ ડોક્યુમેન્ટ સાથે લાવવા.",
+        "price": "", "processing": "", "docs": [["Aadhaar Card of all family members", "તમામ સભ્ય ના આધારકાર્ડ"], ["Mobile Number", "મોબાઈલ નંબર"], ["Parents' Aadhaar Card", "માતા-પિતાનું આધાર કાર્ડ"], ["Income Certificate", "આવકનો દાખલો"], ["Bank Passbook", "બેંકની પાસબુક"], ["Caste Certificate", "જાતિ ના દાખલો"], ["Plot Document or Property Card", "પ્લોટ ની દસ્તાવેજ અથવા પ્રોપર્ટી કાર્ડ"], ["Ration Card", "રેશન કાર્ડ"]]
+    },
+    {
         id: "othergov", cat: "gov", icon: "🗂️", en: "Other Government Online Services", gu: "અન્ય સરકારી ઓનલાઈન સેવાઓ",
         descEn: "Ask us about any other government online work.", descGu: "અન્ય કોઈપણ સરકારી ઓનલાઈન કામ માટે અમને પૂછો.",
         price: "", processing: "", docs: [["Aadhaar Card", "આધાર કાર્ડ"], ["Passport Size Photo", "પાસપોર્ટ સાઇઝ ફોટો"], ["Mobile Number", "મોબાઇલ નંબર"], ["Other documents depend on the service", "અન્ય દસ્તાવેજો સેવા પ્રમાણે"]]
