@@ -10,7 +10,9 @@ const CONFIG = {
     hours: "9:30 AM To 8:00 PM",
     mapsLink: "https://maps.app.goo.gl/raj3biqccCAjs2KD9",                     // paste Google Maps link
     insta: "https://www.instagram.com/shree_ambika_online/?hl=en",
-    defaultLang: "gu"
+    defaultLang: "gu",
+    printShop: "શ્રી અંબિકા ઓનલાઇન",              // shown on printed checklist
+    printAddress: "જૂના બસ સ્ટેશન સામે, લીંબડી"     // shown on printed checklist
 };
 
 /* Category: "gov" | "print" | "card"
@@ -318,6 +320,7 @@ function openModal(id) {
     $("#m-back").textContent = t("back");
     $("#overlay").hidden = false; document.body.style.overflow = "hidden";
     $("#m-close").focus();
+    fillPrintSheet(s);
 }
 function closeModal() { $("#overlay").hidden = true; document.body.style.overflow = ""; current = null; }
 
@@ -334,3 +337,37 @@ document.addEventListener("keydown", e => {
 $("#burger").addEventListener("click", () => { const o = $("#nav").classList.toggle("open"); $("#burger").setAttribute("aria-expanded", o); });
 $("#year").textContent = new Date().getFullYear();
 render();
+
+/* ---------- Print / Save-as-PDF checklist poster ---------- */
+function fillPrintSheet(s) {
+    const sh = $("#print-sheet"); if (!sh) return;
+    const docs = (s.docs || []).filter(d => d[1] && String(d[1]).trim() && !/^All Original Documents/i.test(d[0]));
+    $("#ps-title").textContent = s.gu;
+    $("#ps-pillw").hidden = !docs.length;
+    $("#ps-list").innerHTML = docs.map(d => `<div class="ps-it"><span class="ps-cb">✔</span><span class="ps-tx">${esc(String(d[1]).trim())}</span></div>`).join("");
+    const notes = [];
+    if (s.processing && String(s.processing).trim()) notes.push(String(s.processing).trim());
+    if (!docs.length && s.descGu) notes.push(s.descGu);
+    notes.push("બધા જ ડોક્યુમેન્ટ ઓરીજનલ સાથે લાવવા.");
+    $("#ps-note").innerHTML = notes.map(n => `<div>• ${esc(n)}</div>`).join("");
+    $("#ps-shop").textContent = CONFIG.printShop;
+    $("#ps-addr").textContent = CONFIG.printAddress;
+    sh.dataset.ready = "1";
+    document.body.classList.add("ps-on");
+    fitPrintSheet();
+}
+function fitPrintSheet() {
+    const sh = $("#print-sheet"); if (!sh || !sh.dataset.ready) return;
+    sh.classList.add("measuring");
+    const inner = sh.querySelector(".ps-inner");
+    const maxH = 1271 - 68 - 50;           // keep  content inside the A4 frame
+    let fs = 32, gap = 18, cb = 38;
+    const apply = () => { sh.style.setProperty("--fs", fs + "px"); sh.style.setProperty("--gap", gap + "px"); sh.style.setProperty("--cb", cb + "px"); };
+    apply();
+    while (inner.offsetHeight > maxH && fs > 14) { fs -= 1; cb = Math.max(24, Math.round(fs * 1.2)); gap = Math.max(6, gap - 0.5); apply(); }
+    const t = $("#ps-title"); let ts = 44; t.style.fontSize = ts + "px";
+    while (t.offsetHeight > 130 && ts > 24) { ts -= 1; t.style.fontSize = ts + "px"; }
+    sh.classList.remove("measuring");
+}
+window.addEventListener("beforeprint", fitPrintSheet);
+if (document.fonts && document.fonts.ready) document.fonts.ready.then(fitPrintSheet);
