@@ -215,6 +215,11 @@ const SERVICES = [
         "price": "", "processing": "", "docs": [["Aadhaar Card of all family members", "તમામ સભ્ય ના આધારકાર્ડ"], ["Mobile Number", "મોબાઈલ નંબર"], ["Parents' Aadhaar Card", "માતા-પિતાનું આધાર કાર્ડ"], ["Income Certificate", "આવકનો દાખલો"], ["Bank Passbook", "બેંકની પાસબુક"], ["Caste Certificate", "જાતિ ના દાખલો"], ["Plot Document or Property Card", "પ્લોટ ની દસ્તાવેજ અથવા પ્રોપર્ટી કાર્ડ"], ["Ration Card", "રેશન કાર્ડ"]]
     },
     {
+        "id": "pradhan_mantri_awas_yojana", "cat": "gov", "icon": "🏠", "en": "Pradhan Mantri Awas Yojana (PMAY)", "gu": "પ્રધાનમંત્રી આવાસ યોજના",
+        "descEn": "Government housing scheme aimed at providing affordable housing for the poor and middle-class citizens.", "descGu": "ગરીબ અને મધ્યમ વર્ગના નાગરિકોને સસ્તા દરે આવાસ પુરા પાડવા માટેની સરકારી આવાસ યોજના.",
+        "price": "", "processing": "", "docs": [["Aadhaar Card of Applicant", "લાભાર્થીનું આધારકાર્ડ"], ["Aadhaar Card of Applicant's Parents (Death Certificate in case of death)", "લાભાર્થીના માતા-પિતાનું આધારકાર્ડ (મૃત્યુ પામ્યા હોય તો મરણનો દાખલો)"], ["Ration Card", "રેશનકાર્ડ"], ["Land/Property Documents or Property Card", "દસ્તાવેજ જમીન અથવા પ્રોપર્ટી કાર્ડ"], ["Income Certificate", "આવકનો દાખલો"], ["Caste Certificate", "જાતિનો દાખલો"], ["Bank Passbook of Applicant", "લાભાર્થીની બેંક પાસબુક"], ["Mobile Number linked with Aadhaar Card", "લાભાર્થીનો મોબાઈલ નંબર (આધારકાર્ડ માં લિંક હોય તે)"], ["Aadhaar Cards of all Family Members listed in Ration Card", "રેશનકાર્ડ મુજબ તમામ ઘરના સભ્યના આધારકાર્ડ"]]
+    },
+    {
         id: "othergov", cat: "gov", icon: "🗂️", en: "Other Government Online Services", gu: "અન્ય સરકારી ઓનલાઈન સેવાઓ",
         descEn: "Ask us about any other government online work.", descGu: "અન્ય કોઈપણ સરકારી ઓનલાઈન કામ માટે અમને પૂછો.",
         price: "", processing: "", docs: [["Aadhaar Card", "આધાર કાર્ડ"], ["Passport Size Photo", "પાસપોર્ટ સાઇઝ ફોટો"], ["Mobile Number", "મોબાઇલ નંબર"], ["Other documents depend on the service", "અન્ય દસ્તાવેજો સેવા પ્રમાણે"]]
